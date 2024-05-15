@@ -1,0 +1,91 @@
+.address,
+.Transport,
+.oder {
+  background-color: #fff;
+  padding: 10px 15px 25px 15px;
+  margin-top: 20px;
+}
+
+.address h3,
+.Transport h3,
+.oder h3 {
+  font-weight: 500;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6e2e2;
+}
+
+.information-address {
+  margin-top: 20px;
+}
+.infor-checkout {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.infor-checkout .input-infor-checkout {
+  width: 500px !important;
+  margin-left: 30px;
+}
+
+.infor-checkout label {
+  min-width: 200px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.Transport p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.btn-submit-checkout {
+  background-color: #c92127;
+  color: #fff;
+  font-size: 23px;
+  height: auto;
+  width: 280px;
+  font-weight: 500;
+}
+
+.btn-submit-checkout:hover {
+  background-color: #c92127 !important;
+  color: #fff !important;
+}
+
+.footer-checkout {
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.footer-checkout.total h3 span {
+  font-size: 25px;
+  color: #c92127;
+}
+
+@media screen and (max-width: 600px) {
+  .product-body-cart .img-cart img {
+    width: 70px;
+    height: 70px;
+  }
+  .item-cart .product-body-cart p {
+    font-weight: 500;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .item-cart div:nth-child(2) {
+    padding: 4px 0;
+  }
+  .item-cart div:nth-child(2) button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .item-cart div:nth-child(3) {
+    font-size: 18px;
+  }
+}
